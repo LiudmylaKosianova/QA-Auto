@@ -8,8 +8,8 @@ class User:
         self.second_name = None
 
     def create(self):
-        self.name = "Sergii"
-        self.second_name = "Butenko"
+        self.name = "Liudmyla"
+        self.second_name = "Kosianova"
 
     def remove(self):
         self.name = ""
