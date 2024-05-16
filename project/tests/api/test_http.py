@@ -9,6 +9,9 @@ def test_first_request():
 @pytest.mark.http
 def test_second_request():
     r = requests.get("https://api.github.com/users/defunkt")
-    print(f"Response body: {r.json()}")
-    print(f"Response status code: {r.status_code}")
-    print(f"Response headers: {r.headers}")
+    body = r.json()
+    headers = r.headers
+
+    assert body["company"] == None    
+    assert r.status_code == 200
+    assert headers["Accept-Ranges"] == "bytes"
