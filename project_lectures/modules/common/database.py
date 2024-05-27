@@ -3,7 +3,7 @@ import sqlite3
 class Database():
 
     def __init__(self):
-        self.connection = sqlite3.connect(r"/home/carmin/Public/QA-Auto/project_lectures"+r"become_qa_auto.db")
+        self.connection = sqlite3.connect(r"/home/carmin/Public/QA-Auto/project_lectures"+r"/become_qa_auto.db")
         self.cursor = self.connection.cursor()
 
     def test_connection(self):
@@ -34,6 +34,12 @@ class Database():
         self.cursor.execute(query)
         record = self.cursor.fetchall()
         return record
+    
+    def insert_product(self, product_id, name, description, qnt):
+        query = f"INSERT OR REPLACE INTO products (id, name, description, quantity) \
+                  VALUES ({product_id}, \"{name}\", \"{description}\", {qnt})"
+        self.cursor.execute(query)
+        self.connection.commit()
 
     
 #print(__name__)
