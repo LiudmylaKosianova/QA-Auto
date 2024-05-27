@@ -12,7 +12,7 @@ class Github:
     #     body = r.json()
     #     return body
 
-    def def_user(self, username):
+    def get_user(self, username):
         r = requests.get(f"http://api.github.com/users/{username}")
         body = r.json()
 
