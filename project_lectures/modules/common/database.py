@@ -13,11 +13,16 @@ class Database():
         print(f"Success. SQLite Database version: {record}")
 
     def get_all_users(self):
-        query = "SELECT name, address, city FROM customers;"
+        query = "SELECT name, address, city FROM customers"
         self.cursor.execute(query)
         record = self.cursor.fetchall()
         return record
-     
+    
+    def get_user_address_by_name(self, name):
+        query = f"SELECT address, city, postalCode FROM customers WHERE name = \"{name}\""
+        self.cursor.execute(query)
+        record =  self.cursor.fetchall()
+        return record
 
     
 
