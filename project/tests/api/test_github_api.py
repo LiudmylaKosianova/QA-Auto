@@ -15,3 +15,8 @@ def test_user_not_exist(github_api):
     #print(r)
     r = github_api.get_user("snowwhitesheep")
     assert r['message'] == 'Not Found'
+
+@pytest.mark.api
+def test_repo_is_found(github_api):
+    r = github_api.search_repo("become-qa-auto")
+    print(r)
