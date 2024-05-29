@@ -25,3 +25,18 @@ def test_repo_cannot_be_found(github_api):
 def test_repo_with_single_char_found(github_api):
     repo = github_api.search_repo("l")
     assert repo["total_count"] != 0
+
+@pytest.mark.api
+def test_emoji_is_there(github_api):
+    m = github_api.get_emoji()
+    assert m["-1"] != ""
+
+@pytest.mark.api
+def test_repo_commits(github_api):
+    c = github_api.get_commit("LiudmylaKosianova", "QA-Auto")
+    assert c[0]["commit"]["author"]["name"] == "Liudmyla Kosianova"
+    assert c[0]["commit"]["author"]["email"] == "Liudmyla.Kosianova@gmail.com"
+    assert c[0]["commit"]["verification"]["verified"] == True
+
+
+    
