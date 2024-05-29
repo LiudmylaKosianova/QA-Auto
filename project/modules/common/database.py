@@ -55,3 +55,14 @@ class Database:
         self.cursor.execute(query)
         info = self.cursor.fetchall()
         return info
+    
+    # def get_tables(self):
+    #     self.cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    #     info = self.cursor.fetchall()
+    #     return info
+    
+    # def get_columns_names(self):
+    #     self.cursor.execute("PRAGMA table_info(customers)")
+    #     info = self.cursor.fetchall()
+    #     cNames = [colum[1] for colum in info]
+    #     return cNames

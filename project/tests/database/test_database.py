@@ -54,6 +54,17 @@ def test_details_order():
     assert order_info[0][1] == "Sergii"
     assert order_info[0][2] == "солодка вода"
 
- 
+# @pytest.mark.myD
+# def test_get_tables():
+#     db = Database()
+#     info = db.get_tables()
+#     #print(info)
+#     assert len(info) != 0
+
+# @pytest.mark.myD
+# def test_get_colums_names():
+#     db = Database()
+#     data = db.get_columns_names()
+#     print(data)
 
     
