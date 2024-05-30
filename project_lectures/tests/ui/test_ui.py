@@ -25,6 +25,9 @@ def test_incorrect_username():
     login_pass.send_keys("wrongpassword")
     sign_in = driver.find_element(By.NAME, "commit")
     sign_in.click()
+    assert driver.title == "Sign in to GitHub · GitHub"
+    print("The dot n: ", end="")
+    print(ord('·'))
     time.sleep(3)
     driver.close()
 
