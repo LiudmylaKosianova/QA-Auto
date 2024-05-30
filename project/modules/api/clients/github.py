@@ -19,4 +19,3 @@ class GitHub:
         r = requests.get(f"https://api.github.com/repos/{owner}/{repo}/commits")
         print(r.json())
         return r.json()
-
