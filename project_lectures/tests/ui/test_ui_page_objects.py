@@ -1,7 +1,7 @@
 import pytest
 from modules.ui.page_objects.sign_in_page import SignInPage
 
-@pytest.mark.ui
+#@pytest.mark.ui
 def test_wrong_name_and_pass():
     sign_in_page = SignInPage()
     sign_in_page.go_to()
