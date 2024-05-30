@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
-from base_page import BasePage
+from modules.ui.page_objects.base_page import BasePage
 
 class SignInPage(BasePage):
     URL = "https://github.com/login"
