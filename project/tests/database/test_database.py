@@ -62,6 +62,16 @@ def test_get_user_address_with_wrong_name():
     info2 = db.get_user_address_by_name("Wrong_name")
     assert len(info2) == 0
 
+@pytest.mark.database_plus
+def test_update_quantity_by_nonexisting_id():
+    db = Database()
+    db.update_product_qt_by_id(999, 21)
+    info = db.select_product_qt_by_id(999)
+    assert len(info) == 0
+    info2 = db.select_product_attr_by_id(999)
+    assert len(info2) == 0
+    
+
 # @pytest.mark.database_plus
 # def test_update_quantity_with_bool_datatype():
 #     db = Database()
