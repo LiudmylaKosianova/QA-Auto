@@ -54,17 +54,42 @@ def test_details_order():
     assert order_info[0][1] == "Sergii"
     assert order_info[0][2] == "солодка вода"
 
-# @pytest.mark.myD
-# def test_get_tables():
-#     db = Database()
-#     info = db.get_tables()
-#     #print(info)
-#     assert len(info) != 0
+@pytest.mark.database_plus
+def test_get_user_address_with_wrong_name():
+    db = Database()
+    info1 = db.get_user_address_by_name(True)
+    assert len(info1) == 0
+    info2 = db.get_user_address_by_name("Wrong_name")
+    assert len(info2) == 0
 
-# @pytest.mark.myD
-# def test_get_colums_names():
+# @pytest.mark.database_plus
+# def test_update_quantity_with_bool_datatype():
 #     db = Database()
-#     data = db.get_columns_names()
-#     print(data)
+#     before = db.select_product_qt_by_id(1)
+#     before_update_qt = before[0][0]
 
+#     db.update_product_qt_by_id(1,False)
+
+#     after = db.select_product_qt_by_id(1)
+#     after_update_qt = after[0][0]
+
+#     assert after_update_qt == before_update_qt
+
+# @pytest.mark.database_plus
+# def test_update_quantity_with_string_datatype():
+#     db = Database()
+#     before = db.select_product_qt_by_id(1)
+#     before_update_qt = before[0][0]
+
+#     db.update_product_qt_by_id(1,"five")
+
+#     after = db.select_product_qt_by_id(1)
+#     after_update_qt = after[0][0]
+#     assert after_update_qt == before_update_qt
+
+# @pytest.mark.database_plus
+# def test_select_quantity_wrong_id():
+#     db = Database()
+#     info = db.select_product_qt_by_id(1984)
+#     print(info)
     
