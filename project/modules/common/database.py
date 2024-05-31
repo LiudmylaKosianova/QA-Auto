@@ -26,6 +26,10 @@ class Database:
         self.cursor.execute(f"UPDATE products SET quantity = {qt} WHERE id = {id}")
         self.connection.commit()
 
+    def update_product_description_by_id(self, id, description):
+        self.cursor.execute(f"UPDATE products SET description = \"{description}\" WHERE id = {id}")
+        self.connection.commit()
+
     def select_product_qt_by_id(self, id):
         self.cursor.execute(f"SELECT quantity FROM products WHERE id = {id}")
         qt = self.cursor.fetchall()

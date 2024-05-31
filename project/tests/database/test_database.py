@@ -58,14 +58,20 @@ def test_details_order():
 @pytest.mark.database_plus
 def test_get_user_address_with_nonexistent_name():
     db = Database()
-    # info1 = db.get_user_address_by_name(True)
-    # assert len(info1) == 0
     info = db.get_user_address_by_name("Nonexistent_name")
     assert len(info) == 0
     info1 = db.get_user_address_by_name("")
     assert len(info1) == 0
     info2 = db.get_user_address_by_name("  ")
     assert len(info2) == 0
+
+@pytest.mark.database_plus
+def test_get_user_address_with_wrong_datatype():
+    db = Database()
+    info = db.get_user_address_by_name(2)
+    assert len(info) == 0
+    info2 = db.get_user_address_by_name(False)
+    assert len(info) == 0
 
 @pytest.mark.database_plus
 def test_select_quantity_nonexistent_id():
@@ -84,7 +90,6 @@ def test_update_quantity_nonexistent_id():
 
 @pytest.mark.database_plus
 def test_update_quantity_with_string1():
-    db = Database()
 
     # db.update_product_qt_by_id(1, False)
     # """ It updated quatity to be 0 (converted my boolean False = 0)"""
@@ -95,9 +100,11 @@ def test_update_quantity_with_string1():
     # db.update_product_qt_by_id(1, "") # causes OperationalError
     # db.update_product_qt_by_id(1, " ") # causes OperationalError
 
+
     """An attempt to update quantity column with a string
        raises an exception"""
 
+    db = Database()
     with pytest.raises(OperationalError):
         db.update_product_qt_by_id(1, "nine")
 
@@ -109,32 +116,29 @@ def test_update_quantity_with_string1():
 
 @pytest.mark.database_plus
 def test_update_quantity_with_string2():
+
     """An attempt to update quantity column with a string "quantity"
        is completely ignored"""
+    
     db = Database()
     db.update_product_qt_by_id(1, 21) 
     before = db.select_product_qt_by_id(1)
     before_update_qt = before[0][0]
     assert before_update_qt == 21
 
-    db.update_product_qt_by_id(1, "quantity") # when string is the same as the column name the update is ignored
+    db.update_product_qt_by_id(1, "quantity") 
 
     after = db.select_product_qt_by_id(1)
     after_update_qt = after[0][0]
 
     assert after_update_qt == before_update_qt
-
-# @pytest.mark.database_plus
-# def test_update_quantity_with_string_datatype():
-#     db = Database()
-#     before = db.select_product_qt_by_id(1)
-#     before_update_qt = before[0][0]
-
-#     db.update_product_qt_by_id(1,"five")
-
-#     after = db.select_product_qt_by_id(1)
-#     after_update_qt = after[0][0]
-#     assert after_update_qt == before_update_qt
+ 
+@pytest.mark.database_plus
+def test_update_description():
+    db = Database()
+    db.update_product_description_by_id(1, "sparkling")
+    info = db.select_product_attr_by_id(1)
+    assert info[0][1] == "sparkling"
 
 
     
