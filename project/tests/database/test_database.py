@@ -1,4 +1,5 @@
 import pytest
+from sqlite3 import OperationalError
 from modules.common.database import Database
 
 @pytest.mark.database
@@ -55,35 +56,73 @@ def test_details_order():
     assert order_info[0][2] == "солодка вода"
 
 @pytest.mark.database_plus
-def test_get_user_address_with_wrong_name():
+def test_get_user_address_with_nonexistent_name():
     db = Database()
-    info1 = db.get_user_address_by_name(True)
+    # info1 = db.get_user_address_by_name(True)
+    # assert len(info1) == 0
+    info = db.get_user_address_by_name("Nonexistent_name")
+    assert len(info) == 0
+    info1 = db.get_user_address_by_name("")
     assert len(info1) == 0
-    info2 = db.get_user_address_by_name("Wrong_name")
+    info2 = db.get_user_address_by_name("  ")
     assert len(info2) == 0
 
 @pytest.mark.database_plus
-def test_update_quantity_by_nonexisting_id():
+def test_select_quantity_nonexistent_id():
+    db = Database()
+    info = db.select_product_qt_by_id(1984)
+    assert len(info) == 0
+
+@pytest.mark.database_plus
+def test_update_quantity_nonexistent_id():
     db = Database()
     db.update_product_qt_by_id(999, 21)
     info = db.select_product_qt_by_id(999)
     assert len(info) == 0
     info2 = db.select_product_attr_by_id(999)
     assert len(info2) == 0
-    
 
-# @pytest.mark.database_plus
-# def test_update_quantity_with_bool_datatype():
-#     db = Database()
-#     before = db.select_product_qt_by_id(1)
-#     before_update_qt = before[0][0]
+@pytest.mark.database_plus
+def test_update_quantity_with_string1():
+    db = Database()
 
-#     db.update_product_qt_by_id(1,False)
+    # db.update_product_qt_by_id(1, False)
+    # """ It updated quatity to be 0 (converted my boolean False = 0)"""
+    # db.update_product_qt_by_id(1, "971")
+    # """ It updated quatity to be 971 (converted my string into integer, although I did not ask for it!)"""
+    # db.update_product_qt_by_id(1, "seven")
+    # """ It caused OperationalError: no such column 'seven' """
+    # db.update_product_qt_by_id(1, "") # causes OperationalError
+    # db.update_product_qt_by_id(1, " ") # causes OperationalError
 
-#     after = db.select_product_qt_by_id(1)
-#     after_update_qt = after[0][0]
+    """An attempt to update quantity column with a string
+       raises an exception"""
 
-#     assert after_update_qt == before_update_qt
+    with pytest.raises(OperationalError):
+        db.update_product_qt_by_id(1, "nine")
+
+    with pytest.raises(OperationalError):
+        db.update_product_qt_by_id(1, "")
+
+    with pytest.raises(OperationalError):
+        db.update_product_qt_by_id(1, "  ")
+
+@pytest.mark.database_plus
+def test_update_quantity_with_string2():
+    """An attempt to update quantity column with a string "quantity"
+       is completely ignored"""
+    db = Database()
+    db.update_product_qt_by_id(1, 21) 
+    before = db.select_product_qt_by_id(1)
+    before_update_qt = before[0][0]
+    assert before_update_qt == 21
+
+    db.update_product_qt_by_id(1, "quantity") # when string is the same as the column name the update is ignored
+
+    after = db.select_product_qt_by_id(1)
+    after_update_qt = after[0][0]
+
+    assert after_update_qt == before_update_qt
 
 # @pytest.mark.database_plus
 # def test_update_quantity_with_string_datatype():
@@ -97,9 +136,5 @@ def test_update_quantity_by_nonexisting_id():
 #     after_update_qt = after[0][0]
 #     assert after_update_qt == before_update_qt
 
-# @pytest.mark.database_plus
-# def test_select_quantity_wrong_id():
-#     db = Database()
-#     info = db.select_product_qt_by_id(1984)
-#     print(info)
+
     
