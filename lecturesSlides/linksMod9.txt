@@ -1,0 +1,43 @@
+Python Essential (Основні парадигми програмування) - http://ruslan.rv.ua/python-essential/paradigmas/paradigmas.html
+
+Парадигма програмування - https://uk.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F
+
+Introduction of Programming Paradigms - https://www.geeksforgeeks.org/introduction-of-programming-paradigms/
+
+Programming Paradigms - https://cs.lmu.edu/~ray/notes/paradigms/
+
+What Is Programming Paradigm - https://www.learncomputerscienceonline.com/programming-paradigm/
+
+Python Classes and Objects - https://www.w3schools.com/python/python_classes.asp
+
+Classes - https://docs.python.org/3/tutorial/classes.html
+
+Путівник мовою програмування Python (Класи) -  https://pythonguide.rozh2sch.org.ua/#%D0%A0%D0%BE%D0%B7%D0%B4%D1%96%D0%BB10
+
+Python Essential (Класи і екземпляри класів) - http://ruslan.rv.ua/python-essential/oop/classes.html
+
+PYTHON TUTORIALS (Python Object-oriented Programming) - https://python-tutorials.in/python-object-oriented-programming/
+
+Classes and Objects in Python - https://pynative.com/python-classes-and-objects/
+
+PYnative. Python Programming (Encapsulation in Python) - https://pynative.com/python-encapsulation/
+
+Python Classes and Objects https://www.w3schools.com/python/python_classes.asp
+
+Constructors in Python - https://www.geeksforgeeks.org/constructors-in-python/?ref=lbp
+
+PYTHON TUTORIALS (Python __init__) - https://python-tutorials.in/python-__init__/
+
+Pynative. Python Programming (Constructors in Python) - https://pynative.com/python-constructors/
+
+Python __init__() Function - https://www.w3schools.com/python/gloss_python_class_init.asp
+
+Путівник мовою програмування Python (Виклик методів) -  https://pythonguide.rozh2sch.org.ua/#_%D0%B2%D0%B8%D0%BA%D0%BB%D0%B8%D0%BA_%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%96%D0%B2
+
+Python Essential (Статичні та класові методи) - http://ruslan.rv.ua/python-essential/oop/static_and_class_methods.html
+
+PYTHON TUTORIALS (Python Methods) - https://python-tutorials.in/python-methods/
+
+Class method vs Static method in Python - https://www.geeksforgeeks.org/class-method-vs-static-method-python/?ref=lbp
+
+
