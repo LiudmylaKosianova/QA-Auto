@@ -17,5 +17,17 @@ class GitHub:
     
     def get_commit(self, owner, repo):
         r = requests.get(f"https://api.github.com/repos/{owner}/{repo}/commits")
-        print(r.json())
         return r.json()
+    
+    def get_contributors(self, owner, repo):
+        r = requests.get(f"https://api.github.com/repos/{owner}/{repo}/contributors")
+        return r.json()
+    
+    def get_languages(self, owner, repo):
+        r = requests.get(f"https://api.github.com/repos/{owner}/{repo}/languages")
+        return r.json()
+
+
+    
+    
+

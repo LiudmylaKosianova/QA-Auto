@@ -26,17 +26,37 @@ def test_repo_with_single_char_found(github_api):
     repo = github_api.search_repo("l")
     assert repo["total_count"] != 0
 
-@pytest.mark.api
+@pytest.mark.api_plus
 def test_emoji_is_there(github_api):
-    m = github_api.get_emoji()
-    assert m["-1"] != ""
+    emoji = github_api.get_emoji()
+    assert emoji["-1"] != ""
 
-@pytest.mark.api
+@pytest.mark.api_plus
 def test_repo_commits(github_api):
-    c = github_api.get_commit("LiudmylaKosianova", "QA-Auto")
-    assert c[0]["commit"]["author"]["name"] == "Liudmyla Kosianova"
-    assert c[0]["commit"]["author"]["email"] == "Liudmyla.Kosianova@gmail.com"
-    assert c[0]["commit"]["verification"]["verified"] == True
+    commits = github_api.get_commit("LiudmylaKosianova", "learning-QA-Auto")
+
+    assert commits[0]["commit"]["author"]["name"] == "Liudmyla Kosianova"
+    assert commits[0]["commit"]["author"]["email"] == "Liudmyla.Kosianova@gmail.com"
+    assert commits[0]["commit"]["verification"]["verified"] == False
+    
+
+@pytest.mark.api_plus
+def test_repo_contributors(github_api):
+    contributors = github_api.get_contributors("LiudmylaKosianova", "learning-QA-Auto")
+    
+    assert len(contributors) == 1
+    assert contributors[0]["login"] == "LiudmylaKosianova"
+    assert contributors[0]["type"] == "User"
+    assert contributors[0]["contributions"] != 0
+
+@pytest.mark.api_plus
+def test_repo_languages(github_api):
+    languages = github_api.get_languages("LiudmylaKosianova", "learning-QA-Auto")
+    assert "Python" in languages
+    
+
+
+ 
 
 
     
