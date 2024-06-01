@@ -1,0 +1,2 @@
+Лінійні фреймворки
+https://www.selenium.dev/selenium-ide/

@@ -1,0 +1,35 @@
+HTTP. Що це таке?. https://www.w3schools.com/whatis/whatis_http.asp
+
+Що таке HTTP та HTTPS. Як працює і в чому різниця https://www.youtube.com/watch?v=6RBx2lkA4us&ab_channel=%D0%A2%D1%83%D1%80%D0%B1%D0%BE%D1%82%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3HOSTiQ
+
+Різниця між HTTP та HTTPs https://hostiq.ua/wiki/ukr/http-https/ 
+
+HTTP requests https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-requests
+
+HTTP Messages https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
+
+HTTP headers https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers 
+
+HTTP методи
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+https://www.tutorialspoint.com/http/http_methods.htm
+
+URL адреса
+https://medium.com/@joseph.pyram/9-parts-of-a-url-that-you-should-know-89fea8e11713 
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL 
+
+Документація модуля requests
+https://requests.readthedocs.io/en/latest/user/quickstart/#make-a-request 
+
+Документація ГітХаба
+https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api 
+
+Встановлення модулю requests
+https://www.geeksforgeeks.org/how-to-install-requests-in-python-for-windows-linux-mac/ 
+
+Статус коди
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+Статус коди
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+https://www.tutorialspoint.com/http/http_status_codes.htm 

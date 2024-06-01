@@ -1,0 +1,100 @@
+Лекція “Git” безкоштовного онлайн-курсу «Вебпрограмування з Python та JavaScript CS50» від Гарвардського університету https://youtu.be/a0CftUjkrbs
+
+Вступ - Про систему контролю версій 
+https://git-scm.com/book/uk/v2/%D0%92%D1%81%D1%82%D1%83%D0%BF-%D0%9F%D1%80%D0%BE-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%83-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8E-%D0%B2%D0%B5%D1%80%D1%81%D1%96%D0%B9
+
+
+Інсталяція GIT на Linux
+https://git-scm.com/download/linux
+
+Інсталяція GIT на MACos
+http://git-scm.com/download/mac
+
+Інсталяція GIT на Windows
+https://gitforwindows.org/
+
+Налаштування
+https://www.w3schools.com/git/git_getstarted.asp?remote=github
+
+Інтерактивний сайт Learn Git Branching
+https://learngitbranching.js.org/?locale=uk
+
+Початкове налаштування Git
+https://git-scm.com/book/uk/v2/%D0%92%D1%81%D1%82%D1%83%D0%BF-%D0%9F%D0%BE%D1%87%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B5-%D0%BD%D0%B0%D0%BB%D0%B0%D1%88%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-Git 
+
+Adding a new SSH key to your GitHub account
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+Git GitHub Getting Started
+https://www.w3schools.com/git/git_remote_getstarted.asp?remote=github
+
+Інтерактивний сайт Learn Git Branching
+https://learngitbranching.js.org/?locale=uk
+
+Git book
+https://git-scm.com/book/uk/v2 
+
+Git Commit
+https://www.w3schools.com/git/git_commit.asp?remote=github
+
+Запис змін до репозиторія
+https://git-scm.com/book/uk/v2/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8-Git-%D0%97%D0%B0%D0%BF%D0%B8%D1%81-%D0%B7%D0%BC%D1%96%D0%BD-%D0%B4%D0%BE-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D1%96%D1%8F
+
+Перегляд історії комітів
+https://git-scm.com/book/uk/v2/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8-Git-%D0%9F%D0%B5%D1%80%D0%B5%D0%B3%D0%BB%D1%8F%D0%B4-%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%97-%D0%BA%D0%BE%D0%BC%D1%96%D1%82%D1%96%D0%B2 
+
+Інтерактивний сайт Learn Git Branching
+https://learngitbranching.js.org/?locale=uk
+
+Git book - розділ 3
+https://git-scm.com/book/uk/v2
+
+Галуження в git - Гілки у кількох словах
+https://git-scm.com/book/uk/v2/%D0%93%D0%B0%D0%BB%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F-%D0%B2-git-%D0%93%D1%96%D0%BB%D0%BA%D0%B8-%D1%83-%D0%BA%D1%96%D0%BB%D1%8C%D0%BA%D0%BE%D1%85-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%85 
+
+Git Branch
+https://www.w3schools.com/git/git_branch.asp?remote=github 
+
+Інтерактивний сайт Learn Git Branching
+https://learngitbranching.js.org/?locale=uk
+
+Git book - розділ 3
+https://git-scm.com/book/uk/v2
+
+Галуження в git - Управління гілками
+https://git-scm.com/book/uk/v2/%D0%93%D0%B0%D0%BB%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F-%D0%B2-git-%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%96%D0%BD%D0%BD%D1%8F-%D0%B3%D1%96%D0%BB%D0%BA%D0%B0%D0%BC%D0%B8
+
+Git Branch
+https://www.w3schools.com/git/git_branch.asp?remote=github 
+
+Інтерактивний сайт Learn Git Branching
+https://learngitbranching.js.org/?locale=uk
+
+Git book - розділ 3
+https://git-scm.com/book/uk/v2
+
+Git Branch Merge
+https://www.w3schools.com/git/git_branch_merge.asp?remote=github
+
+Галуження в git - Основи галуження та зливання
+https://git-scm.com/book/uk/v2/%D0%93%D0%B0%D0%BB%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F-%D0%B2-git-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8-%D0%B3%D0%B0%D0%BB%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F-%D1%82%D0%B0-%D0%B7%D0%BB%D0%B8%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F
+
+Git GitHub Edit Code
+https://www.w3schools.com/git/git_remote_edit_code.asp?remote=github
+
+Git Pull from GitHub
+https://www.w3schools.com/git/git_pull_from_remote.asp?remote=github
+
+Git Push to GitHub
+https://www.w3schools.com/git/git_push_to_remote.asp?remote=github
+
+Git Pull Branch from GitHub
+https://www.w3schools.com/git/git_branch_pull_from_remote.asp?remote=github 
+
+Git Push Branch to GitHub
+https://www.w3schools.com/git/git_branch_push_to_remote.asp?remote=github
+
+Розподілений Git - Внесення змін до проєкту
+https://git-scm.com/book/uk/v2/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D0%B4%D1%96%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9-Git-%D0%92%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D0%BD%D1%8F-%D0%B7%D0%BC%D1%96%D0%BD-%D0%B4%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83 
+
+

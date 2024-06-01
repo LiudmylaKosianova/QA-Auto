@@ -1,0 +1,21 @@
+Можливості Pytest. Документація
+https://docs.pytest.org/en/6.2.x/contents.html
+
+Pytest. Плагіни
+https://docs.pytest.org/en/7.0.x/reference/plugin_list.html 
+
+Області виконання фікстур
+https://docs.pytest.org/en/6.2.x/fixture.html#scope-sharing-fixtures-across-classes-modules-packages-or-session 
+
+Pytest fixtures
+https://www.tutorialspoint.com/pytest/pytest_fixtures.htm 
+
+Сonftest.py
+https://www.tutorialspoint.com/pytest/pytest_conftest_py.htm
+
+Working with custom markers
+https://docs.pytest.org/en/7.1.x/example/markers.html
+
+How to mark test functions with attributes
+https://docs.pytest.org/en/7.1.x/how-to/mark.html 
+
