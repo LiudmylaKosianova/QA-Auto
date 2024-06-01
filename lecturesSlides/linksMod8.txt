@@ -1,0 +1,50 @@
+Python Рядки - https://www.w3schools.com/python/python_strings.asp
+
+Путівник мовою програмування Python (Рядки) -  https://pythonguide.rozh2sch.org.ua/#_%D1%80%D1%8F%D0%B4%D0%BA%D0%B8
+
+PYTHON TUTORIALS (Strings in Python) - https://python-tutorials.in/python-string-2/
+
+Python Словники - https://www.w3schools.com/python/python_dictionaries.asp
+
+Путівник мовою програмування Python (Словники і множини) -  https://pythonguide.rozh2sch.org.ua/#_%D1%81%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8_%D1%96_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B8%D0%BD%D0%B8
+
+Dictionaries in Python - https://pynative.com/python-dictionaries/
+
+PYTHON TUTORIALS (Dictionaries in Python) - https://python-tutorials.in/python-dictionary-2/
+
+Python Множини - https://www.w3schools.com/python/python_sets.asp
+
+Путівник мовою програмування Python (Множини) -  https://pythonguide.rozh2sch.org.ua/#_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B8%D0%BD%D0%B8
+
+Sets in Python - https://pynative.com/python-sets/
+
+PYTHON TUTORIALS (Python Set Union) - https://python-tutorials.in/python-set-union/
+
+PYTHON TUTORIALS (Python Set Intersection) - https://python-tutorials.in/python-set-intersection/
+
+PYTHON TUTORIALS (Python Set Difference) - https://python-tutorials.in/python-set-difference/
+
+Python Кортежі - https://www.w3schools.com/python/python_tuples.asp
+
+Путівник мовою програмування Python (Кортежі) - https://pythonguide.rozh2sch.org.ua/#_%D0%BA%D0%BE%D1%80%D1%82%D0%B5%D0%B6%D1%96
+
+Tuples in Python - https://pynative.com/python-tuples/
+
+PYTHON TUTORIALS (Python Tuples) - https://python-tutorials.in/python-tuples/
+
+Python Essential (Кортежі) - http://ruslan.rv.ua/python-essential/types_and_data_structures/sequences/tuple.html
+
+Lists - https://docs.python.org/3/tutorial/introduction.html#lists
+
+Путівник мовою програмування Python (Списки і кортежі) - https://pythonguide.rozh2sch.org.ua/#_%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_%D1%96_%D0%BA%D0%BE%D1%80%D1%82%D0%B5%D0%B6%D1%96
+
+Python - Loop Lists -  https://www.w3schools.com/python/python_lists_loop.asp
+
+Python Списки  - https://www.w3schools.com/python/python_lists.asp
+
+Python Lists - https://pynative.com/python-lists/
+
+Python Essential (Списки) -  http://ruslan.rv.ua/python-essential/types_and_data_structures/sequences/list.html
+
+PYTHON TUTORIALS (Python List) - https://python-tutorials.in/python-list-2/
+
