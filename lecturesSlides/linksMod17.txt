@@ -1,0 +1,11 @@
+cUrl приклади
+https://curl.se/docs/manual.html
+
+Search API documentation
+https://docs.github.com/en/rest/search#search-repositories
+
+Jira 
+
+https://www.atlassian.com/software/jira/guides/use-cases/what-is-jira-used-for#jira-for-project-management-teams 
+https://www.atlassian.com/software/jira/guides/getting-started/overview
+https://www.tutorialspoint.com/jira/jira_overview.htm 

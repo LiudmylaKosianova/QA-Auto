@@ -1,0 +1,46 @@
+Типи даних в SQL базах даних  https://www.w3schools.com/sql/sql_datatypes.asp
+
+Sqlite for VScode  https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
+
+Типи даних в sqlite  https://www.sqlite.org/datatype3.html
+
+Sqlite3 документація https://docs.python.org/3/library/sqlite3.html
+
+SQL запит SELECT - https://www.w3schools.com/sql/sql_select.asp
+
+SQL - SELECT Query - https://www.tutorialspoint.com/sql/sql-select-query.htm
+
+SQL: SELECT Statement - https://www.techonthenet.com/sql/select.php
+
+Фільтрація даних - https://www.w3schools.com/sql/sql_where.asp
+
+SQL - WHERE Clause - https://www.tutorialspoint.com/sql/sql-where-clause.htm
+
+Оновлення даних - https://www.w3schools.com/sql/sql_update.asp
+
+SQL - UPDATE Query - https://www.tutorialspoint.com/sql/sql-update-query.htm
+
+SQL: UPDATE Statement - https://www.techonthenet.com/sql/update.php
+
+Створення даних https://www.w3schools.com/sql/sql_insert.asp
+
+SQL - INSERT Query https://www.tutorialspoint.com/sql/sql-insert-query.htm
+
+SQL: INSERT Statement https://www.techonthenet.com/sql/insert.php
+
+Видалення даних - https://www.w3schools.com/sql/sql_delete.asp
+
+SQL - DELETE Query - https://www.tutorialspoint.com/sql/sql-delete-query.htm
+
+SQL: DELETE Statement - https://www.techonthenet.com/sql/delete.php
+
+Поєднання даних: 
+
+SQL INNER JOIN Keyword  https://www.w3schools.com/sql/sql_join_inner.asp
+SQL LEFT JOIN Keyword  https://www.w3schools.com/sql/sql_join_left.asp
+SQL RIGHT JOIN Keyword  https://www.w3schools.com/sql/sql_join_right.asp
+SQL FULL OUTER JOIN Keyword  https://www.w3schools.com/sql/sql_join_full.asp
+SQL Self Join  https://www.w3schools.com/sql/sql_join_self.asp
+SQL UNION Operator  https://www.w3schools.com/sql/sql_union.asp
+SQL - Using Joins  https://www.tutorialspoint.com/sql/sql-using-joins.htm
+SQL: JOINS  https://www.techonthenet.com/sql/joins.php
