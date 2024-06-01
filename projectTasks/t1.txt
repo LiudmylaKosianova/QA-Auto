@@ -1,0 +1,42 @@
+Проєктне завдання 1
+Створити структуру папок і файлів фреймворка.
+
+1. В склонованому з GiHub репозиторії (це той репозиторій, який ви клонували, виконуючи блок лекцій по GIT) створити наступну ієрархію файлі і папок, що ми будемо вважати початково стуктурою фреймворка:
+
+Структура папок від кореневої директорії проєкта:
+
+/config
+
+/modules
+
+ /modules/common
+
+/modules/ui
+
+/modules/ui/page_objects
+
+/modules/api
+
+/modules/api/clients
+
+/tests
+
+/tests/ui
+
+/tests/api
+
+Структура файлів від кореневої директорії проєкта:
+
+/config/config.py
+
+modules/common/__init__.py
+
+/modules/ui/page_objects/__init__.py
+
+/modules/api/clients/__init__.py
+
+/tests/ui/test_ui.py
+
+/tests/api/test_api.py
+
+2. Всі створені, змінені та видалені файли додати до коміта і відправити на сервер GitHub за допомогою команди git push

@@ -1,0 +1,23 @@
+Посилання на сайт оголошень https://ukraine.craigslist.org/
+
+Selenium - https://uk.wikipedia.org/wiki/Selenium
+
+What is Selenium? Introduction to Selenium Automation Testing - https://www.guru99.com/introduction-to-selenium.html
+
+BrowserStack. Selenium https://www.browserstack.com/selenium
+
+ChromeDriver - WebDriver for Chrome - https://chromedriver.chromium.org/downloads
+
+Finding web elements - https://www.selenium.dev/documentation/webdriver/elements/finders/
+
+Basic operations -  https://www.selenium.dev/documentation/webdriver/elements/interactions/
+
+Attributes - https://www.selenium.dev/documentation/webdriver/elements/locators/
+
+Attributes priority - https://www.qafox.com/selenium-locators-priority/
+
+PageObject - https://uk.wikipedia.org/wiki/PageObject
+
+Page Object Model (POM) in Selenium Python - https://medium.com/@zackbunch/page-object-model-pom-in-selenium-python-73d0a805f2a8
+
+Martin Fowler. PageObject - https://martinfowler.com/bliki/PageObject.html
