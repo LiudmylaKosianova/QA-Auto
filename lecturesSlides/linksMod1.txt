@@ -1,0 +1,35 @@
+Життєвий цикл програмного забезпечення https://uk.wikipedia.org/wiki/%D0%96%D0%B8%D1%82%D1%82%D1%94%D0%B2%D0%B8%D0%B9_%D1%86%D0%B8%D0%BA%D0%BB_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F
+
+SDLC Tutorial  https://www.tutorialspoint.com/sdlc/sdlc_overview.htm 
+Зверніть увагу, якщо текст на сторінці написаний незрозумілою вам мовою, Chrome може перекласти його. Для цього  натисніть правою кнопкою миші будь-де на сторінці й виберіть Перекласти такою мовою: [мова].
+
+Software Development Life Cycle https://www.guru99.com/software-development-life-cycle-tutorial.html
+
+Посібник зі Скраму https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Ukrainian.pdf 
+
+Портрет тестувальника: хто такий сучасний QA-інженер. Дослідження GlobalLogic https://www.globallogic.com/ua/about/news/modern-qa-engineer-gl-research/?fbclid=IwAR2KhYBJXb1ZPdXy9OV5L9QvkVV7-oAnJxrveE_9u4j0wDzbwiQI1_ACT2c 
+
+Автоматизатор тестування https://youtu.be/1eWjp42kI4o 
+
+Мови програмування та сфери їх застосування https://blog.jungo.dev/uk/2020/12/yazyki-programmirovaniya-i-sfery-ih-primeneniya-2/
+
+Порівняння мов програмування https://careers.easternpeak.com/blog/popular-programming-languages/
+
+Пайтон, як мова програмування https://www.w3schools.com/python/python_intro.asp
+
+Путівник мовою програмування Python https://pythonguide.rozh2sch.org.ua/#_%D1%96%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%B0_%D0%B4%D0%BE%D0%B2%D1%96%D0%B4%D0%BA%D0%B0
+
+Переваги Python http://ruslan.rv.ua/python-starter/about_python.html 
+
+[MAC] Інсталяція Python, VScode, Python for VScode - https://www.dataquest.io/blog/installing-python-on-mac/
+
+[Linux] Інсталяція Python - https://docs.python-guide.org/starting/install3/linux/
+
+[Linux] Інсталяція VScode - https://code.visualstudio.com/docs/setup/linux
+
+[Windows]Інсталяція Python - https://www.digitalocean.com/community/tutorials/install-python-windows-10
+
+[Windows] Інсталяція VScode  - https://code.visualstudio.com/docs/setup/windows
+
+VScode. Introductory Videos - https://code.visualstudio.com/docs/getstarted/introvideos  
+
