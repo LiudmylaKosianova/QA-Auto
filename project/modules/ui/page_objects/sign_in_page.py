@@ -34,4 +34,19 @@ class SignInPage(BasePage):
 
     def check_title(self, title_expected):
         return self.driver.title == title_expected
+    
+    def find_language(self):
+        element = self.driver.find_element(By.TAG_NAME, "html")
+        language = element.get_attribute("lang")
+        return language
+    
+    def get_cart_count_Amazon(self):
+        element = self.driver.find_element(By.ID, 'nav-cart-count')
+        count = int(element.text)
+        return count
+
+
+    
+
+
 
