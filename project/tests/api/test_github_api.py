@@ -54,14 +54,9 @@ def test_repo_languages(github_api):
     languages = github_api.get_languages("LiudmylaKosianova", "learning-QA-Auto")
     assert "Python" in languages
 
-# @pytest.mark.api_plus
-# def test_list_emails(github_api):
-#     emails = github_api.list_emails("LiudmylaKosianova")
-#     assert emails[0]["email"] == "Liudmyla.Kosianova@gmail.com"
-    
-
-
- 
-
-
+@pytest.mark.api_plus
+def test_get_followers(github_api):
+    followers = github_api.get_followers("Misterro")
+    assert len(followers) != 0
+    assert followers[0]["login"] == "LiudmylaKosianova"
     

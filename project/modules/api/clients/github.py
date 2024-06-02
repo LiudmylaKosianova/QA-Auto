@@ -26,10 +26,10 @@ class GitHub:
     def get_languages(self, owner, repo):
         r = requests.get(f"https://api.github.com/repos/{owner}/{repo}/languages")
         return r.json()
-    
-    # def list_emails(self, user):
-    #     r = requests.get(f"https://api.github.com/{user}/public_emails")
-    #     return r.json()
+
+    def get_followers(self,username):
+        r = requests.get(f"https://api.github.com/users/{username}/followers")
+        return r.json()
 
 
     
