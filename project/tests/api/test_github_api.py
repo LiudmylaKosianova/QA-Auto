@@ -53,6 +53,11 @@ def test_repo_contributors(github_api):
 def test_repo_languages(github_api):
     languages = github_api.get_languages("LiudmylaKosianova", "learning-QA-Auto")
     assert "Python" in languages
+
+# @pytest.mark.api_plus
+# def test_list_emails(github_api):
+#     emails = github_api.list_emails("LiudmylaKosianova")
+#     assert emails[0]["email"] == "Liudmyla.Kosianova@gmail.com"
     
 
 
